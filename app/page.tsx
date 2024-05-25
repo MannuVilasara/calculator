@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useState } from "react";
 import { Button, ButtonGroup } from "@nextui-org/button";
 import { Textarea } from "@nextui-org/input";
@@ -56,7 +55,7 @@ export default function Home() {
             variant="bordered"
           />
           <ButtonGroup>
-           <Button variant="bordered" onClick={() => handleButtonClick("7")}>
+            <Button variant="bordered" onClick={() => handleButtonClick("7")}>
               7
             </Button>
             <Button variant="bordered" onClick={() => handleButtonClick("8")}>
